@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
 import Card from "react-tinder-card";
 import "./Cards.css";
-import database from "./firebase";
 
 function Cards() {
-  const [people, setPeople] = useState([]);
 
-  useEffect(() => {
-    const unsubscribe = database
-      .collection("people")
-      .onSnapshot((snapshot) =>
-        setPeople(snapshot.docs.map((doc) => doc.data()))
-      );
+  //https://3z5e98v1ql.execute-api.us-west-2.amazonaws.com/default/getDogs
+  
+  const [people, setPeople] = useState([
+    { name: "fluffy", url: "https://thehappypuppysite.com/wp-content/uploads/2019/06/Mini-Shiba-Inu-HP-long.jpg" },
+    { name: "sparky", url: "https://gooddoggies.online/wp-content/uploads/2020/06/5-Tips-To-Training-A-Labrador-Puppy-1.jpg" },
+  ]);
 
-    return () => {
-      unsubscribe();
-    };
-  }, []);
+  // useEffect(() => {
+  //   const unsubscribe = setPeople([...people])
+  //   return () => {
+  //     unsubscribe();
+  //   };
+  // }, [people]);
 
   return (
     <div>
