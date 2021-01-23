@@ -19,7 +19,7 @@ React JS, AWS Lambda, Dynamo DB, S3 Buckets, useState Hook, useEffect Hook, Reac
 ## Screen Shots
 
 In Action
-![Demo-Gif](/readme-assets/pawesome-demo.gif)
+![Demo-Gif](/ReadMeAssets/pawesome-demo.gif)
 
 Swiping Page
 ![Swiping Page](/ReadMeAssets/image1.png)
