@@ -35,7 +35,7 @@ const ChatScreen = () => {
       {messages.map((message) =>
         message.name ? (
           <div className="chatScreen__message">
-            <Avatar
+            <img
               className="chatScreen__image"
               alt={message.name}
               src={message.image}

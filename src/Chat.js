@@ -7,7 +7,7 @@ const Chat = ({ name, message, profilePic, timestamp }) => {
   return (
     <Link to={`/chat/${name}`}>
       <div className="chat">
-        <Avatar className="chat__image" src={profilePic} />
+        <img className="chat__image" src={profilePic} alt="Avatar"/>
         <div className="chat__details">
           <h2>{name}</h2>
           <p>{message}</p>

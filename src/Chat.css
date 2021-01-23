@@ -2,12 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
-  height: 70px;
-  border-bottom: 1px solid #fafafa;
+  padding: 2em;
+  height: 5em;
+  border-bottom: 10px solid lightgray;
 }
 
 a {
+    font-size: 1.5em;
     text-decoration: none;
     color:inherit;
 }
@@ -17,13 +18,16 @@ a {
 }
 
 .chat__details p {
-    color: gray;
+    color: grey;
 }
 
 .chat__image {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
     margin-right:20px;
 }
 
 .chat__timestamp {
-    color: lightgray;
+    color: grey;
 }
