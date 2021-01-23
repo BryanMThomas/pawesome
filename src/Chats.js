@@ -5,21 +5,21 @@ import Chat from "./Chat"
 const Chats = () => {
   return <div className="chats">
       <Chat
-      name="Labrador"
+      name="byte"
       message="Wuff" 
       timestamp="6 mins ago" 
-      profilePic="https://gooddoggies.online/wp-content/uploads/2020/06/5-Tips-To-Training-A-Labrador-Puppy-1.jpg"
+      profilePic="https://pawesome-project.s3-us-west-2.amazonaws.com/profile-images/puppy2.jpg"
       />
       <Chat
-      name="Shiba Inu"
+      name="docker"
       message="Bork" 
       timestamp="1 hr ago" 
-      profilePic="https://thehappypuppysite.com/wp-content/uploads/2019/06/Mini-Shiba-Inu-HP-long.jpg"/>
+      profilePic="https://pawesome-project.s3-us-west-2.amazonaws.com/profile-images/puppy3.jpg"/>
       <Chat
-      name="Corgi"
-      message="Awooo" 
+      name="sudo"
+      message="bork bork bork" 
       timestamp="4 hrs ago" 
-      profilePic="https://i.pinimg.com/originals/cb/d4/1f/cbd41fb83c06a915a79ed0ab9ca63789.jpg"/>
+      profilePic="https://pawesome-project.s3-us-west-2.amazonaws.com/profile-images/puppy5.jpg"/>
   </div>;
 };
 

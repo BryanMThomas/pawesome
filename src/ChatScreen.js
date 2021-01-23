@@ -6,19 +6,19 @@ const ChatScreen = () => {
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
     {
-      name: "Labrador",
+      name: "sudo",
       image:
-        "https://gooddoggies.online/wp-content/uploads/2020/06/5-Tips-To-Training-A-Labrador-Puppy-1.jpg",
+        "https://pawesome-project.s3-us-west-2.amazonaws.com/profile-images/puppy5.jpg",
       message: "Hey",
     },
     {
-      name: "Labrador",
+      name: "sudo",
       image:
-        "https://gooddoggies.online/wp-content/uploads/2020/06/5-Tips-To-Training-A-Labrador-Puppy-1.jpg",
+        "https://pawesome-project.s3-us-west-2.amazonaws.com/profile-images/puppy5.jpg",
       message: "Bork bork bork",
     },
     {
-      message: "yo",
+      message: "Hi!",
     },
   ]);
 
@@ -30,7 +30,7 @@ const ChatScreen = () => {
   return (
     <div className="chatScreen">
       <p className="chatScreen__timestamp">
-        YOU MATCHED WITH LABRADOR ON 08/21/2020
+        YOU MATCHED WITH SUDO ON 01/25/2021
       </p>
       {messages.map((message) =>
         message.name ? (

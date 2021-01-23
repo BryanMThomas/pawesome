@@ -4,8 +4,6 @@ import getAllDogs from "./utils/api";
 import "./Cards.css";
 
 function Cards() {
-  //https://3z5e98v1ql.execute-api.us-west-2.amazonaws.com/default/getDogs
-
   const [dogs, setDogs] = useState({});
 
   useEffect(() => {
@@ -23,7 +21,7 @@ function Cards() {
       });
   }, []);
   if (Object.keys(dogs).length === 0) {
-    //Waiting for property data to be returned
+    //Waiting for dog data to be returned
     return <p>LOADING DATA...</p>;
   } else if (dogs.hasOwnProperty("error")) {
     return <p>Failed to Retrieve Data</p>;
